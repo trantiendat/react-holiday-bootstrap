@@ -1,7 +1,17 @@
 # react-holiday-bootstrap
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Applied eslint, prettier, bootstrap
+Applied eslint, prettier, bootstrap, styled-components, axios
+
+## Folder Structure
+
+| folder     | description                                                                          |
+| ---------- | ------------------------------------------------------------------------------------ |
+| components | Define common components that available to reuse in various places                   |
+| modules    | Define some class as modules. Example: Rest API, AWS, currency format, string format |
+| pages      | Define container components that used for each page                                  |
+| routers    | Define routing processing                                                            |
+| store      | Define entity that include dto, adapter, operation, reducer, types for each entity   |
 
 ## Available Scripts
 
